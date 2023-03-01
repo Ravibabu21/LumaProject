@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Ravibabu Singavarapu/IdeaProjects/AssignmentOnLUMA/src/test/java/com/MLI/LUMAAssignment/Testclass/TestClassForLumaProject.java">
+        <classes>
+            <class name="com.MLI.LUMAAssignment.Testclass.TestClassForLumaProject">
+                <methods>
+                    <include name="verifyTheLogin"/>
+                    <include name="verifyTheBags"/>
+                    <include name="verifyTheWishListPageContents"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
